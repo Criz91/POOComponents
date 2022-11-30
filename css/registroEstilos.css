@@ -1,0 +1,114 @@
+::-webkit-scrollbar-track {
+  background: black;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 5px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+background-color: #ffffff;
+opacity: 0.8;
+  background-image: linear-gradient(-120deg, #91D277, #008CB3);
+
+}
+checkbox{
+margin: auto;
+margin-right: 50%;
+}
+
+fieldset{
+  padding: 30px;
+  margin: auto;
+  border-radius: 30px;
+  border:2px solid #7a768f;
+
+}
+.form-register{
+  width: 450px;
+  background-color: #ffffff;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  border-radius: 30px;
+  font-family: Calibri;
+  color: #373540;
+  box-shadow: 7px 13px 37px #000;
+}
+legend{
+    text-align: center;
+}
+.form-register h5 {
+  color: #7a768f;
+  font-size: 40px;
+
+  padding: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.controls {
+  width: 100%;
+  background-color: #5ff27c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 2px solid #1fc733; 
+  font-family: Calibri;
+  font-size: 18px;
+}
+
+
+  ::placeholder { 
+    
+  border-color: #68826f;
+  border: 10px;
+  border-radius: 100px;
+  }
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.form-register a{
+  color: withe;
+  text-decoration: none;
+}
+
+.form-register a:hover{
+  color: #5e487fFF;
+  text-decoration: underline;
+}
+
+.form-register .botons{
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+  
+}
+
+.form_input:focus ~ .form_line,
+.form input:not(:placeholder-shown) ~ .form_line{
+  transform: scale(1);
+}
+
+}
